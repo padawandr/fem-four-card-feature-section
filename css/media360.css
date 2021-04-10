@@ -1,0 +1,11 @@
+@media screen and (min-width: 360px) {
+
+	header h2, header h3 {
+		line-height: 1.5;
+	}
+
+	header h2 span, header h3 span {
+		display: inline;
+	}
+
+}
