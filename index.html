@@ -14,7 +14,7 @@
 		rel="stylesheet">
 
 	<link rel="stylesheet"
-		href="./css/main.css">
+		href="./css/style.css">
 
 	<link rel="shortcut icon"
 		href="./img/avatar256.png"
@@ -25,45 +25,49 @@
 <body>
 
 	<section class="container">
-		<header>
-			<h2>Reliable, <span>efficient delivery</span></h2>
-			<h3>Powered by <span>Technology</span></h3>
-			<p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is
-				successful</p>
+		<header class="hero">
+			<h2 class="hero__title">Reliable, <span class="break">efficient delivery</span></h2>
+			<h3 class="hero__subtitle">Powered by <span class="break">Technology</span></h3>
+			<p class="hero__description">Our Artificial Intelligence powered tools use millions of project data points to
+				ensure that your project is successful</p>
 		</header>
 
 		<ul class="deck">
-			<li class="card supervisor">
-				<div class="info">
-					<h4>Supervisor</h4>
-					<p>Monitors activity to identify project roadblocks</p>
+			<li class="card card--supervisor">
+				<div class="card__info">
+					<h4 class="card__title">Supervisor</h4>
+					<p class="card__description">Monitors activity to identify project roadblocks</p>
 				</div>
 				<img src="./assets/icon-supervisor.svg"
-					alt="supervisor icon">
+					alt="supervisor icon"
+					class="card__icon">
 			</li>
-			<li class="card teambuilder">
-				<div class="info">
-					<h4>Team Builder</h4>
-					<p>Scans our talent network to create the optimal team for your project</p>
+			<li class="card card--teambuilder">
+				<div class="card__info">
+					<h4 class="card__title">Team Builder</h4>
+					<p class="card__description">Scans our talent network to create the optimal team for your project</p>
 				</div>
 				<img src="./assets/icon-team-builder.svg"
-					alt="team builder icon">
+					alt="team builder icon"
+					class="card__icon">
 			</li>
-			<li class="card karma">
-				<div class="info">
-					<h4>Karma</h4>
-					<p>Regularly evaluates our talent to ensure quality</p>
+			<li class="card card--karma">
+				<div class="card__info">
+					<h4 class="card__title">Karma</h4>
+					<p class="card__description">Regularly evaluates our talent to ensure quality</p>
 				</div>
 				<img src="./assets/icon-karma.svg"
-					alt="karma icon">
+					alt="karma icon"
+					class="card__icon">
 			</li>
-			<li class="card calculator">
-				<div class="info">
-					<h4>Calculator</h4>
-					<p>Uses data from past projects to provide better delivery estimates</p>
+			<li class="card card--calculator">
+				<div class="card__info">
+					<h4 class="card__title">Calculator</h4>
+					<p class="card__description">Uses data from past projects to provide better delivery estimates</p>
 				</div>
 				<img src="./assets/icon-calculator.svg"
-					alt="calculator icon">
+					alt="calculator icon"
+					class="card__icon">
 			</li>
 		</ul>
 	</section>

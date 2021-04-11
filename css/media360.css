@@ -1,11 +1,12 @@
 @media screen and (min-width: 360px) {
 
-	header h2, header h3 {
-		line-height: 1.5;
+	.break {
+		display: inline;
 	}
 
-	header h2 span, header h3 span {
-		display: inline;
+	.hero__title, .hero__subtitle {
+		margin: 0;
+		line-height: 1.5;
 	}
 
 }

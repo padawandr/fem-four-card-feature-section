@@ -8,11 +8,11 @@
 		padding: min(5%, 5rem) 0;
 	}
 
-	header {
+	.hero {
 		margin: 0 auto;
 	}
 
-	header h2, header h3 {
+	.hero__title, .hero__subtitle {
 		font-size: 3rem;
 	}
 

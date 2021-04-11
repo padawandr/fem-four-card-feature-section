@@ -1,7 +1,117 @@
-@import './reset.css';
-@import './palette.css';
-@import './typography.css';
-@import './style.css';
-@import './media360.css';
-@import './media640.css';
-@import './media1024.css';
+/* GLOBAL */
+
+body {
+	background: var(--neutral-background);
+}
+
+h2, h3, h4 {
+	color: var(--neutral-heading);
+}
+
+p {
+	color: var(--neutral-paragraph);
+}
+
+.container {
+	margin: auto;
+	width: min(83%, 111rem);
+}
+
+.break {
+	display: block;
+}
+
+/* HERO */
+
+.hero {
+	margin: 8.4rem auto 0;
+	max-width: 45rem;
+	text-align: center;
+}
+
+.hero__title {
+	font-size: 2.4rem;
+	font-weight: 200;
+	letter-spacing: .015rem;
+	line-height: 1.2;
+}
+
+.hero__subtitle {
+	font-size: 2.4rem;
+	font-weight: 600;
+	margin-top: 1rem;
+	letter-spacing: .015rem;
+	line-height: 1.2;
+}
+
+.hero__description {
+	font-size: 1.5rem;
+	line-height: 1.7;
+	margin-top: 1rem;
+}
+
+/* DECK */
+
+.deck {
+	display: grid;
+	gap: 2.5rem;
+	margin: 7.5rem 0 8rem;
+}
+
+/* CARD */
+
+.card {
+	background: #fff;
+	border-radius: 1rem;
+	box-shadow: 0 .8rem 2rem var(--neutral-shadow);
+	display: flex;
+	flex-flow: column;
+	height: 22rem;
+	justify-content: space-between;
+	margin: auto;
+	max-width: 35rem;
+	overflow: hidden;
+	padding: 2.5rem 3rem;
+	position: relative;
+}
+
+.card::before {
+	content: '';
+	height: .4rem;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.card--supervisor::before {
+	background: var(--primary-supervisor);
+}
+
+.card--teambuilder::before {
+	background: var(--primary-teambuilder);
+}
+
+.card--karma::before {
+	background: var(--primary-karma);
+}
+
+.card--calculator::before {
+	background: var(--primary-calculator);
+}
+
+.card__title {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.card__description {
+	font-size: 1.3rem;
+	line-height: 1.7;
+	margin-top: .3rem;
+}
+
+.card__icon {
+	align-self: flex-end;
+	width: 5.8rem;
+}
